@@ -1,32 +1,25 @@
-# Python
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.py[cod]
-*.so
-
-# Virtual environments
-venv/
-.venv/
-env/
+*$py.class
 
 # Jupyter
 .ipynb_checkpoints/
 
-# OS
+# Generated files
+*.csv
+*.pkl
+*.joblib
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Secrets
-.env
-.env.*
-
-# Large ML files
-*.pkl
-*.joblib
-*.h5
-*.pt
-*.pth
-
-# Data
-data/*.csv
-data/*.xlsx
-data/*.zip
+# IDE
+.vscode/
+.idea/
